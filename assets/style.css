@@ -1,0 +1,41 @@
+:root {
+  --plum: #DDA0DD;
+}
+
+* {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+a, a:visited, a:focus {
+  color: var(--plum);
+  font-style: italic;
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 7%;
+  margin-bottom: 2.5%;
+}
+
+.card {
+  display: inline-block;
+  width: 18rem;
+  margin: 2%;
+}
+
+.fab, .far {
+  color: var(--plum);
+}
+
+.fab {
+  margin: 0 5px;
+}
+
+.name {
+  font-family: 'La Belle Aurore', cursive;
+  font-weight: 700;
+}
+
+.center {
+  text-align: center;
+}
